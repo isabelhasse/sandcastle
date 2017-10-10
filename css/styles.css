@@ -1,3 +1,19 @@
 #charming-sandcastle, #unusual-sandcastle, #elaborate-sandcastle {
   display: none;
 }
+
+#show-castle1, #show-castle2, #show-castle3 {
+  color: blue;
+  cursor: pointer;
+}
+
+#show-castle1:hover, #show-castle2:hover, #show-castle3:hover {
+  text-decoration: underline;
+}
+
+.highlight-box {
+  background-color: yellow;
+  border: 2px solid gray;
+  padding: 4px;
+  margin: 8px;
+}
